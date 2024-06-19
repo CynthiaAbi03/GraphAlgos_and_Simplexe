@@ -1,0 +1,181 @@
+.relatn-container {
+    margin: 1rem 0 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.relatn-container-algos{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 5rem;
+}
+.section1{
+    /* background-color: pink; */
+    flex: 2;
+}
+.section2{
+    /* background-color: #5555bd; */
+    margin: 5.5rem 0rem;
+}
+.main-container-nodes{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    
+      
+}
+.result-simplexe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.select-option{
+    width: 20%;
+}
+.input-container-nodes {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.from-container{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+select, .select{
+    padding: .5rem 2rem;
+    font-size: 1rem;
+}
+#weight {
+    padding: .5rem 1rem;
+    font-size: 1rem;
+}
+label {
+    font-size: 1.125rem;
+}
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.new-relatn{
+    background-color: #5555bd;
+    color: white;
+    outline: none;
+    border: none;
+    padding: .6em 1em;
+    font-size: 1.125rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.finish-btn{
+    background-color: green;
+    color: white;
+    outline: none;
+    border: none;
+    width: 200px;
+    padding: .6em 1em;
+    font-size: 1.125rem;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+h1 {
+   color: green;
+   text-align: center;
+}
+.choose-node-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.algos-h2{
+    text-align: center;
+}
+.color-h2{
+    color: blue;
+}
+.supprimer-btn{
+    outline: none;
+    text-decoration: none;
+    border: none;
+    color: red;
+    background-color: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.finish_algorithms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+table {
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    
+  }
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+thead th {
+    width: 150px;
+    background-color: rgb(186, 116, 186);
+  }
+th {
+    background-color: rgb(165, 165, 232);
+    color: white;
+}
+.important-text{
+    margin-top: 1rem;
+    margin: 0;
+    padding-top: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.red-text {
+    color: red;
+}
+.algo-answers{
+    font-size: 1.3rem;
+}
+.kruskal-display {
+    display: flex;
+    gap: 1rem;
+}
+.kruskal-algo-answers{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+.center-style {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-simplexe{
+    font-size: 1rem;
+    padding: .3rem .3rem;
+    width: 100px;
+}
+.table-display-simplexe{
+    margin-top: 3rem;
+}

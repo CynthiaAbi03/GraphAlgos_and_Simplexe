@@ -1,0 +1,46 @@
+.home_main_container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home_p{
+    font-size: 2rem;
+    margin-top: -4rem;
+}
+.home_main_content{
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home_general_btn{
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 1.5rem;
+   
+
+}
+.graphPages_main_btn{
+    background-color: rgb(82, 105, 197);
+    color: white;
+    padding: .6em 1em;
+    
+}
+.methodePert_main_btn{
+    
+    background-color: pink;
+    color: black;
+    
+    padding: .5em 3em;
+    
+
+}
+.methodeSimplexe_main_btn{
+    background-color: blueviolet;
+    color: white;
+    padding: .5em 2.3em;
+}
